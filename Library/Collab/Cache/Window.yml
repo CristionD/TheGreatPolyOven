@@ -1,0 +1,403 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - Assets/My Assets/Animations/PolyOven Animations.meta
+    - Assets/My Assets/Prefabs/Food/Cake.prefab
+    - Assets/My Assets/Prefabs/Food/Cookie.prefab
+    - Assets/My Assets/Prefabs/Food/Ice Cream.prefab
+    - Assets/My Assets/Prefabs/Food/Special Cake.prefab
+    - Assets/My Assets/Prefabs/Food/Special Cookie.prefab
+    - Assets/My Assets/Prefabs/Food/Special Ice Cream.prefab
+    - Assets/My Assets/Prefabs/Player.meta
+    - Assets/My Assets/Prefabs/Player/Player.prefab
+    - Assets/My Assets/Prefabs/Player/Player.prefab.meta
+    - Assets/My Assets/Prefabs/Tools/Poly Oven.prefab
+    - Assets/My Assets/Scripts/Helper Scripts/MonoSingleton.cs
+    - Assets/My Assets/Scripts/Helper Scripts/MonoSingleton.cs.meta
+    - Assets/My Assets/Scripts/Helper Scripts/TagHolder.cs
+    - Assets/My Assets/Scripts/Pastry Scripts/Cake.cs
+    - Assets/My Assets/Scripts/Pastry Scripts/Cake.cs.meta
+    - Assets/My Assets/Scripts/Pastry Scripts/Cookie.cs
+    - Assets/My Assets/Scripts/Pastry Scripts/Cookie.cs.meta
+    - Assets/My Assets/Scripts/Pastry Scripts/IceCream.cs
+    - Assets/My Assets/Scripts/Pastry Scripts/IceCream.cs.meta
+    - Assets/My Assets/Scripts/Pastry Scripts/Pastry.cs
+    - Assets/My Assets/Scripts/Player Scripts/MouseLook.cs
+    - Assets/My Assets/Scripts/Player Scripts/PlayerCanvas.cs
+    - Assets/My Assets/Scripts/Player Scripts/PlayerCanvas.cs.meta
+    - Assets/My Assets/Scripts/Player Scripts/SelectionHandler.cs
+    - Assets/My Assets/Scripts/Tool Scripts.meta
+    - Assets/My Assets/Scripts/Tool Scripts/ButtonBehavior.cs
+    - Assets/My Assets/Scripts/Tool Scripts/Counter.cs
+    - Assets/My Assets/Scripts/Tool Scripts/Counter.cs.meta
+    - Assets/My Assets/Scripts/Tool Scripts/PolyOven.cs
+    - Assets/Scenes/PolyOvenScene.unity
+    - Assets/TMI - Kitchen.meta
+    - Assets/TMI - Kitchen/Animations.meta
+    - Assets/TMI - Kitchen/Animations/Fridge.controller
+    - Assets/TMI - Kitchen/Animations/Fridge.controller.meta
+    - Assets/TMI - Kitchen/Animations/Kitchen Stand 1.controller
+    - Assets/TMI - Kitchen/Animations/Kitchen Stand 1.controller.meta
+    - Assets/TMI - Kitchen/Animations/Kitchen Stand.controller
+    - Assets/TMI - Kitchen/Animations/Kitchen Stand.controller.meta
+    - Assets/TMI - Kitchen/Animations/Microwave.controller
+    - Assets/TMI - Kitchen/Animations/Microwave.controller.meta
+    - Assets/TMI - Kitchen/Animations/Waffle Machine.controller
+    - Assets/TMI - Kitchen/Animations/Waffle Machine.controller.meta
+    - Assets/TMI - Kitchen/Animators.meta
+    - Assets/TMI - Kitchen/Animators/F_Close.anim
+    - Assets/TMI - Kitchen/Animators/F_Close.anim.meta
+    - Assets/TMI - Kitchen/Animators/F_Open.anim
+    - Assets/TMI - Kitchen/Animators/F_Open.anim.meta
+    - Assets/TMI - Kitchen/Animators/KSD_Close.anim
+    - Assets/TMI - Kitchen/Animators/KSD_Close.anim.meta
+    - Assets/TMI - Kitchen/Animators/KSD_Open.anim
+    - Assets/TMI - Kitchen/Animators/KSD_Open.anim.meta
+    - Assets/TMI - Kitchen/Animators/KS_Close.anim
+    - Assets/TMI - Kitchen/Animators/KS_Close.anim.meta
+    - Assets/TMI - Kitchen/Animators/KS_Open.anim
+    - Assets/TMI - Kitchen/Animators/KS_Open.anim.meta
+    - Assets/TMI - Kitchen/Animators/MW_Close.anim
+    - Assets/TMI - Kitchen/Animators/MW_Close.anim.meta
+    - Assets/TMI - Kitchen/Animators/MW_Open.anim
+    - Assets/TMI - Kitchen/Animators/MW_Open.anim.meta
+    - Assets/TMI - Kitchen/Animators/WM_Close.anim
+    - Assets/TMI - Kitchen/Animators/WM_Close.anim.meta
+    - Assets/TMI - Kitchen/Animators/WM_Open.anim
+    - Assets/TMI - Kitchen/Animators/WM_Open.anim.meta
+    - Assets/TMI - Kitchen/Materials.meta
+    - Assets/TMI - Kitchen/Materials/chair.mat
+    - Assets/TMI - Kitchen/Materials/chair.mat.meta
+    - Assets/TMI - Kitchen/Materials/champagne cup.mat
+    - Assets/TMI - Kitchen/Materials/champagne cup.mat.meta
+    - Assets/TMI - Kitchen/Materials/cooking pot 2.mat
+    - Assets/TMI - Kitchen/Materials/cooking pot 2.mat.meta
+    - Assets/TMI - Kitchen/Materials/cooking pot.mat
+    - Assets/TMI - Kitchen/Materials/cooking pot.mat.meta
+    - Assets/TMI - Kitchen/Materials/fork.mat
+    - Assets/TMI - Kitchen/Materials/fork.mat.meta
+    - Assets/TMI - Kitchen/Materials/fridge.mat
+    - Assets/TMI - Kitchen/Materials/fridge.mat.meta
+    - Assets/TMI - Kitchen/Materials/fridge_door.mat
+    - Assets/TMI - Kitchen/Materials/fridge_door.mat.meta
+    - Assets/TMI - Kitchen/Materials/frying pan.mat
+    - Assets/TMI - Kitchen/Materials/frying pan.mat.meta
+    - Assets/TMI - Kitchen/Materials/glass.mat
+    - Assets/TMI - Kitchen/Materials/glass.mat.meta
+    - Assets/TMI - Kitchen/Materials/kitchen_sink.mat
+    - Assets/TMI - Kitchen/Materials/kitchen_sink.mat.meta
+    - Assets/TMI - Kitchen/Materials/kitchen_stand 2.mat
+    - Assets/TMI - Kitchen/Materials/kitchen_stand 2.mat.meta
+    - Assets/TMI - Kitchen/Materials/kitchen_stand 3.mat
+    - Assets/TMI - Kitchen/Materials/kitchen_stand 3.mat.meta
+    - Assets/TMI - Kitchen/Materials/kitchen_stand door 2.mat
+    - Assets/TMI - Kitchen/Materials/kitchen_stand door 2.mat.meta
+    - Assets/TMI - Kitchen/Materials/kitchen_stand door.mat
+    - Assets/TMI - Kitchen/Materials/kitchen_stand door.mat.meta
+    - Assets/TMI - Kitchen/Materials/kitchen_stand.mat
+    - Assets/TMI - Kitchen/Materials/kitchen_stand.mat.meta
+    - Assets/TMI - Kitchen/Materials/knife.mat
+    - Assets/TMI - Kitchen/Materials/knife.mat.meta
+    - Assets/TMI - Kitchen/Materials/long table.mat
+    - Assets/TMI - Kitchen/Materials/long table.mat.meta
+    - Assets/TMI - Kitchen/Materials/microwave door 2.mat
+    - Assets/TMI - Kitchen/Materials/microwave door 2.mat.meta
+    - Assets/TMI - Kitchen/Materials/microwave door.mat
+    - Assets/TMI - Kitchen/Materials/microwave door.mat.meta
+    - Assets/TMI - Kitchen/Materials/microwave.mat
+    - Assets/TMI - Kitchen/Materials/microwave.mat.meta
+    - Assets/TMI - Kitchen/Materials/oven 1.mat
+    - Assets/TMI - Kitchen/Materials/oven 1.mat.meta
+    - Assets/TMI - Kitchen/Materials/oven 2.mat
+    - Assets/TMI - Kitchen/Materials/oven 2.mat.meta
+    - Assets/TMI - Kitchen/Materials/plate.mat
+    - Assets/TMI - Kitchen/Materials/plate.mat.meta
+    - Assets/TMI - Kitchen/Materials/spoon.mat
+    - Assets/TMI - Kitchen/Materials/spoon.mat.meta
+    - Assets/TMI - Kitchen/Materials/square napkin.mat
+    - Assets/TMI - Kitchen/Materials/square napkin.mat.meta
+    - Assets/TMI - Kitchen/Materials/table.mat
+    - Assets/TMI - Kitchen/Materials/table.mat.meta
+    - Assets/TMI - Kitchen/Materials/toaster.mat
+    - Assets/TMI - Kitchen/Materials/toaster.mat.meta
+    - Assets/TMI - Kitchen/Materials/triangle napkin.mat
+    - Assets/TMI - Kitchen/Materials/triangle napkin.mat.meta
+    - Assets/TMI - Kitchen/Materials/waffle machine top.mat
+    - Assets/TMI - Kitchen/Materials/waffle machine top.mat.meta
+    - Assets/TMI - Kitchen/Materials/waffle machine.mat
+    - Assets/TMI - Kitchen/Materials/waffle machine.mat.meta
+    - Assets/TMI - Kitchen/Materials/wine cup.mat
+    - Assets/TMI - Kitchen/Materials/wine cup.mat.meta
+    - Assets/TMI - Kitchen/Materials/wooden spoon.mat
+    - Assets/TMI - Kitchen/Materials/wooden spoon.mat.meta
+    - Assets/TMI - Kitchen/Models.meta
+    - Assets/TMI - Kitchen/Models/chair.mtl
+    - Assets/TMI - Kitchen/Models/chair.mtl.meta
+    - Assets/TMI - Kitchen/Models/chair.obj
+    - Assets/TMI - Kitchen/Models/chair.obj.meta
+    - Assets/TMI - Kitchen/Models/chair.png
+    - Assets/TMI - Kitchen/Models/chair.png.meta
+    - Assets/TMI - Kitchen/Models/champagne cup.mtl
+    - Assets/TMI - Kitchen/Models/champagne cup.mtl.meta
+    - Assets/TMI - Kitchen/Models/champagne cup.obj
+    - Assets/TMI - Kitchen/Models/champagne cup.obj.meta
+    - Assets/TMI - Kitchen/Models/champagne cup.png
+    - Assets/TMI - Kitchen/Models/champagne cup.png.meta
+    - Assets/TMI - Kitchen/Models/cooking pot 2.mtl
+    - Assets/TMI - Kitchen/Models/cooking pot 2.mtl.meta
+    - Assets/TMI - Kitchen/Models/cooking pot 2.obj
+    - Assets/TMI - Kitchen/Models/cooking pot 2.obj.meta
+    - Assets/TMI - Kitchen/Models/cooking pot 2.png
+    - Assets/TMI - Kitchen/Models/cooking pot 2.png.meta
+    - Assets/TMI - Kitchen/Models/cooking pot.mtl
+    - Assets/TMI - Kitchen/Models/cooking pot.mtl.meta
+    - Assets/TMI - Kitchen/Models/cooking pot.obj
+    - Assets/TMI - Kitchen/Models/cooking pot.obj.meta
+    - Assets/TMI - Kitchen/Models/cooking pot.png
+    - Assets/TMI - Kitchen/Models/cooking pot.png.meta
+    - Assets/TMI - Kitchen/Models/fork.mtl
+    - Assets/TMI - Kitchen/Models/fork.mtl.meta
+    - Assets/TMI - Kitchen/Models/fork.obj
+    - Assets/TMI - Kitchen/Models/fork.obj.meta
+    - Assets/TMI - Kitchen/Models/fork.png
+    - Assets/TMI - Kitchen/Models/fork.png.meta
+    - Assets/TMI - Kitchen/Models/fridge.mtl
+    - Assets/TMI - Kitchen/Models/fridge.mtl.meta
+    - Assets/TMI - Kitchen/Models/fridge.obj
+    - Assets/TMI - Kitchen/Models/fridge.obj.meta
+    - Assets/TMI - Kitchen/Models/fridge.png
+    - Assets/TMI - Kitchen/Models/fridge.png.meta
+    - Assets/TMI - Kitchen/Models/fridge_door.mtl
+    - Assets/TMI - Kitchen/Models/fridge_door.mtl.meta
+    - Assets/TMI - Kitchen/Models/fridge_door.obj
+    - Assets/TMI - Kitchen/Models/fridge_door.obj.meta
+    - Assets/TMI - Kitchen/Models/fridge_door.png
+    - Assets/TMI - Kitchen/Models/fridge_door.png.meta
+    - Assets/TMI - Kitchen/Models/frying pan.mtl
+    - Assets/TMI - Kitchen/Models/frying pan.mtl.meta
+    - Assets/TMI - Kitchen/Models/frying pan.obj
+    - Assets/TMI - Kitchen/Models/frying pan.obj.meta
+    - Assets/TMI - Kitchen/Models/frying pan.png
+    - Assets/TMI - Kitchen/Models/frying pan.png.meta
+    - Assets/TMI - Kitchen/Models/glass.mtl
+    - Assets/TMI - Kitchen/Models/glass.mtl.meta
+    - Assets/TMI - Kitchen/Models/glass.obj
+    - Assets/TMI - Kitchen/Models/glass.obj.meta
+    - Assets/TMI - Kitchen/Models/glass.png
+    - Assets/TMI - Kitchen/Models/glass.png.meta
+    - Assets/TMI - Kitchen/Models/kitchen_sink.mtl
+    - Assets/TMI - Kitchen/Models/kitchen_sink.mtl.meta
+    - Assets/TMI - Kitchen/Models/kitchen_sink.obj
+    - Assets/TMI - Kitchen/Models/kitchen_sink.obj.meta
+    - Assets/TMI - Kitchen/Models/kitchen_sink.png
+    - Assets/TMI - Kitchen/Models/kitchen_sink.png.meta
+    - Assets/TMI - Kitchen/Models/kitchen_stand 2.mtl
+    - Assets/TMI - Kitchen/Models/kitchen_stand 2.mtl.meta
+    - Assets/TMI - Kitchen/Models/kitchen_stand 2.obj
+    - Assets/TMI - Kitchen/Models/kitchen_stand 2.obj.meta
+    - Assets/TMI - Kitchen/Models/kitchen_stand 2.png
+    - Assets/TMI - Kitchen/Models/kitchen_stand 2.png.meta
+    - Assets/TMI - Kitchen/Models/kitchen_stand 3.mtl
+    - Assets/TMI - Kitchen/Models/kitchen_stand 3.mtl.meta
+    - Assets/TMI - Kitchen/Models/kitchen_stand 3.obj
+    - Assets/TMI - Kitchen/Models/kitchen_stand 3.obj.meta
+    - Assets/TMI - Kitchen/Models/kitchen_stand 3.png
+    - Assets/TMI - Kitchen/Models/kitchen_stand 3.png.meta
+    - Assets/TMI - Kitchen/Models/kitchen_stand door 2.mtl
+    - Assets/TMI - Kitchen/Models/kitchen_stand door 2.mtl.meta
+    - Assets/TMI - Kitchen/Models/kitchen_stand door 2.obj
+    - Assets/TMI - Kitchen/Models/kitchen_stand door 2.obj.meta
+    - Assets/TMI - Kitchen/Models/kitchen_stand door 2.png
+    - Assets/TMI - Kitchen/Models/kitchen_stand door 2.png.meta
+    - Assets/TMI - Kitchen/Models/kitchen_stand door.mtl
+    - Assets/TMI - Kitchen/Models/kitchen_stand door.mtl.meta
+    - Assets/TMI - Kitchen/Models/kitchen_stand door.obj
+    - Assets/TMI - Kitchen/Models/kitchen_stand door.obj.meta
+    - Assets/TMI - Kitchen/Models/kitchen_stand door.png
+    - Assets/TMI - Kitchen/Models/kitchen_stand door.png.meta
+    - Assets/TMI - Kitchen/Models/kitchen_stand.mtl
+    - Assets/TMI - Kitchen/Models/kitchen_stand.mtl.meta
+    - Assets/TMI - Kitchen/Models/kitchen_stand.obj
+    - Assets/TMI - Kitchen/Models/kitchen_stand.obj.meta
+    - Assets/TMI - Kitchen/Models/kitchen_stand.png
+    - Assets/TMI - Kitchen/Models/kitchen_stand.png.meta
+    - Assets/TMI - Kitchen/Models/knife.mtl
+    - Assets/TMI - Kitchen/Models/knife.mtl.meta
+    - Assets/TMI - Kitchen/Models/knife.obj
+    - Assets/TMI - Kitchen/Models/knife.obj.meta
+    - Assets/TMI - Kitchen/Models/knife.png
+    - Assets/TMI - Kitchen/Models/knife.png.meta
+    - Assets/TMI - Kitchen/Models/long table.mtl
+    - Assets/TMI - Kitchen/Models/long table.mtl.meta
+    - Assets/TMI - Kitchen/Models/long table.obj
+    - Assets/TMI - Kitchen/Models/long table.obj.meta
+    - Assets/TMI - Kitchen/Models/long table.png
+    - Assets/TMI - Kitchen/Models/long table.png.meta
+    - Assets/TMI - Kitchen/Models/microwave door 2.mtl
+    - Assets/TMI - Kitchen/Models/microwave door 2.mtl.meta
+    - Assets/TMI - Kitchen/Models/microwave door 2.obj
+    - Assets/TMI - Kitchen/Models/microwave door 2.obj.meta
+    - Assets/TMI - Kitchen/Models/microwave door 2.png
+    - Assets/TMI - Kitchen/Models/microwave door 2.png.meta
+    - Assets/TMI - Kitchen/Models/microwave door.mtl
+    - Assets/TMI - Kitchen/Models/microwave door.mtl.meta
+    - Assets/TMI - Kitchen/Models/microwave door.obj
+    - Assets/TMI - Kitchen/Models/microwave door.obj.meta
+    - Assets/TMI - Kitchen/Models/microwave door.png
+    - Assets/TMI - Kitchen/Models/microwave door.png.meta
+    - Assets/TMI - Kitchen/Models/microwave.mtl
+    - Assets/TMI - Kitchen/Models/microwave.mtl.meta
+    - Assets/TMI - Kitchen/Models/microwave.obj
+    - Assets/TMI - Kitchen/Models/microwave.obj.meta
+    - Assets/TMI - Kitchen/Models/microwave.png
+    - Assets/TMI - Kitchen/Models/microwave.png.meta
+    - Assets/TMI - Kitchen/Models/oven 1.mtl
+    - Assets/TMI - Kitchen/Models/oven 1.mtl.meta
+    - Assets/TMI - Kitchen/Models/oven 1.obj
+    - Assets/TMI - Kitchen/Models/oven 1.obj.meta
+    - Assets/TMI - Kitchen/Models/oven 1.png
+    - Assets/TMI - Kitchen/Models/oven 1.png.meta
+    - Assets/TMI - Kitchen/Models/oven 2.mtl
+    - Assets/TMI - Kitchen/Models/oven 2.mtl.meta
+    - Assets/TMI - Kitchen/Models/oven 2.obj
+    - Assets/TMI - Kitchen/Models/oven 2.obj.meta
+    - Assets/TMI - Kitchen/Models/oven 2.png
+    - Assets/TMI - Kitchen/Models/oven 2.png.meta
+    - Assets/TMI - Kitchen/Models/plate.mtl
+    - Assets/TMI - Kitchen/Models/plate.mtl.meta
+    - Assets/TMI - Kitchen/Models/plate.obj
+    - Assets/TMI - Kitchen/Models/plate.obj.meta
+    - Assets/TMI - Kitchen/Models/plate.png
+    - Assets/TMI - Kitchen/Models/plate.png.meta
+    - Assets/TMI - Kitchen/Models/spoon.mtl
+    - Assets/TMI - Kitchen/Models/spoon.mtl.meta
+    - Assets/TMI - Kitchen/Models/spoon.obj
+    - Assets/TMI - Kitchen/Models/spoon.obj.meta
+    - Assets/TMI - Kitchen/Models/spoon.png
+    - Assets/TMI - Kitchen/Models/spoon.png.meta
+    - Assets/TMI - Kitchen/Models/square napkin.mtl
+    - Assets/TMI - Kitchen/Models/square napkin.mtl.meta
+    - Assets/TMI - Kitchen/Models/square napkin.obj
+    - Assets/TMI - Kitchen/Models/square napkin.obj.meta
+    - Assets/TMI - Kitchen/Models/square napkin.png
+    - Assets/TMI - Kitchen/Models/square napkin.png.meta
+    - Assets/TMI - Kitchen/Models/table.mtl
+    - Assets/TMI - Kitchen/Models/table.mtl.meta
+    - Assets/TMI - Kitchen/Models/table.obj
+    - Assets/TMI - Kitchen/Models/table.obj.meta
+    - Assets/TMI - Kitchen/Models/table.png
+    - Assets/TMI - Kitchen/Models/table.png.meta
+    - Assets/TMI - Kitchen/Models/toaster.mtl
+    - Assets/TMI - Kitchen/Models/toaster.mtl.meta
+    - Assets/TMI - Kitchen/Models/toaster.obj
+    - Assets/TMI - Kitchen/Models/toaster.obj.meta
+    - Assets/TMI - Kitchen/Models/toaster.png
+    - Assets/TMI - Kitchen/Models/toaster.png.meta
+    - Assets/TMI - Kitchen/Models/triangle napkin.mtl
+    - Assets/TMI - Kitchen/Models/triangle napkin.mtl.meta
+    - Assets/TMI - Kitchen/Models/triangle napkin.obj
+    - Assets/TMI - Kitchen/Models/triangle napkin.obj.meta
+    - Assets/TMI - Kitchen/Models/triangle napkin.png
+    - Assets/TMI - Kitchen/Models/triangle napkin.png.meta
+    - Assets/TMI - Kitchen/Models/waffle machine top.mtl
+    - Assets/TMI - Kitchen/Models/waffle machine top.mtl.meta
+    - Assets/TMI - Kitchen/Models/waffle machine top.obj
+    - Assets/TMI - Kitchen/Models/waffle machine top.obj.meta
+    - Assets/TMI - Kitchen/Models/waffle machine top.png
+    - Assets/TMI - Kitchen/Models/waffle machine top.png.meta
+    - Assets/TMI - Kitchen/Models/waffle machine.mtl
+    - Assets/TMI - Kitchen/Models/waffle machine.mtl.meta
+    - Assets/TMI - Kitchen/Models/waffle machine.obj
+    - Assets/TMI - Kitchen/Models/waffle machine.obj.meta
+    - Assets/TMI - Kitchen/Models/waffle machine.png
+    - Assets/TMI - Kitchen/Models/waffle machine.png.meta
+    - Assets/TMI - Kitchen/Models/wine cup.mtl
+    - Assets/TMI - Kitchen/Models/wine cup.mtl.meta
+    - Assets/TMI - Kitchen/Models/wine cup.obj
+    - Assets/TMI - Kitchen/Models/wine cup.obj.meta
+    - Assets/TMI - Kitchen/Models/wine cup.png
+    - Assets/TMI - Kitchen/Models/wine cup.png.meta
+    - Assets/TMI - Kitchen/Models/wooden spoon.mtl
+    - Assets/TMI - Kitchen/Models/wooden spoon.mtl.meta
+    - Assets/TMI - Kitchen/Models/wooden spoon.obj
+    - Assets/TMI - Kitchen/Models/wooden spoon.obj.meta
+    - Assets/TMI - Kitchen/Models/wooden spoon.png
+    - Assets/TMI - Kitchen/Models/wooden spoon.png.meta
+    - Assets/TMI - Kitchen/Prefabs.meta
+    - Assets/TMI - Kitchen/Prefabs/chair.prefab
+    - Assets/TMI - Kitchen/Prefabs/chair.prefab.meta
+    - Assets/TMI - Kitchen/Prefabs/champagne_cup.prefab
+    - Assets/TMI - Kitchen/Prefabs/champagne_cup.prefab.meta
+    - Assets/TMI - Kitchen/Prefabs/cooking_pot.prefab
+    - Assets/TMI - Kitchen/Prefabs/cooking_pot.prefab.meta
+    - Assets/TMI - Kitchen/Prefabs/cooking_pot_2.prefab
+    - Assets/TMI - Kitchen/Prefabs/cooking_pot_2.prefab.meta
+    - Assets/TMI - Kitchen/Prefabs/fork.prefab
+    - Assets/TMI - Kitchen/Prefabs/fork.prefab.meta
+    - Assets/TMI - Kitchen/Prefabs/fridge.prefab
+    - Assets/TMI - Kitchen/Prefabs/fridge.prefab.meta
+    - Assets/TMI - Kitchen/Prefabs/frying_pan.prefab
+    - Assets/TMI - Kitchen/Prefabs/frying_pan.prefab.meta
+    - Assets/TMI - Kitchen/Prefabs/glass.prefab
+    - Assets/TMI - Kitchen/Prefabs/glass.prefab.meta
+    - Assets/TMI - Kitchen/Prefabs/kitchen_sink.prefab
+    - Assets/TMI - Kitchen/Prefabs/kitchen_sink.prefab.meta
+    - Assets/TMI - Kitchen/Prefabs/kitchen_stand.prefab
+    - Assets/TMI - Kitchen/Prefabs/kitchen_stand.prefab.meta
+    - Assets/TMI - Kitchen/Prefabs/kitchen_stand_2.prefab
+    - Assets/TMI - Kitchen/Prefabs/kitchen_stand_2.prefab.meta
+    - Assets/TMI - Kitchen/Prefabs/kitchen_stand_3.prefab
+    - Assets/TMI - Kitchen/Prefabs/kitchen_stand_3.prefab.meta
+    - Assets/TMI - Kitchen/Prefabs/knife.prefab
+    - Assets/TMI - Kitchen/Prefabs/knife.prefab.meta
+    - Assets/TMI - Kitchen/Prefabs/long_table.prefab
+    - Assets/TMI - Kitchen/Prefabs/long_table.prefab.meta
+    - Assets/TMI - Kitchen/Prefabs/microwave.prefab
+    - Assets/TMI - Kitchen/Prefabs/microwave.prefab.meta
+    - Assets/TMI - Kitchen/Prefabs/oven_1.prefab
+    - Assets/TMI - Kitchen/Prefabs/oven_1.prefab.meta
+    - Assets/TMI - Kitchen/Prefabs/oven_2.prefab
+    - Assets/TMI - Kitchen/Prefabs/oven_2.prefab.meta
+    - Assets/TMI - Kitchen/Prefabs/plate.prefab
+    - Assets/TMI - Kitchen/Prefabs/plate.prefab.meta
+    - Assets/TMI - Kitchen/Prefabs/spoon.prefab
+    - Assets/TMI - Kitchen/Prefabs/spoon.prefab.meta
+    - Assets/TMI - Kitchen/Prefabs/square_napkin.prefab
+    - Assets/TMI - Kitchen/Prefabs/square_napkin.prefab.meta
+    - Assets/TMI - Kitchen/Prefabs/table.prefab
+    - Assets/TMI - Kitchen/Prefabs/table.prefab.meta
+    - Assets/TMI - Kitchen/Prefabs/toaster.prefab
+    - Assets/TMI - Kitchen/Prefabs/toaster.prefab.meta
+    - Assets/TMI - Kitchen/Prefabs/triangle_napkin.prefab
+    - Assets/TMI - Kitchen/Prefabs/triangle_napkin.prefab.meta
+    - Assets/TMI - Kitchen/Prefabs/waffle_machine.prefab
+    - Assets/TMI - Kitchen/Prefabs/waffle_machine.prefab.meta
+    - Assets/TMI - Kitchen/Prefabs/wine_cup.prefab
+    - Assets/TMI - Kitchen/Prefabs/wine_cup.prefab.meta
+    - Assets/TMI - Kitchen/Prefabs/wooden_spoon.prefab
+    - Assets/TMI - Kitchen/Prefabs/wooden_spoon.prefab.meta
+    - Assets/TMI - Kitchen/Test Scene.unity
+    - Assets/TMI - Kitchen/Test Scene.unity.meta
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - 
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
